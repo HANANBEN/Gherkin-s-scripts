@@ -45,3 +45,5 @@ Scenario: Authentication panel fails to display due to a rendering or network is
     Given I have hovered over the "Connectez-vous" button
     When I click outside the panel
     Then the authentication panel should remain open
+
+
