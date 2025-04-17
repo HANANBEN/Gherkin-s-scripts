@@ -13,7 +13,7 @@ Feature: Redirection to home page via logo click
    And I am <authenticationStatus>
 
    Examples:
- 
+  | authenticationStatus      |
   | a visitor                  |
   | logged in as a regular user |
 
